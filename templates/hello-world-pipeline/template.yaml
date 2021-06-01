@@ -1,0 +1,10 @@
+version: 1
+  type: pipeline-template
+
+  name: Hello World Pipeline Job
+  description: Simple Hello World Pipeline Job
+  parameters:
+    - name: name
+      type: string
+      displayName: Name for the greeting
+      default: 'World'
