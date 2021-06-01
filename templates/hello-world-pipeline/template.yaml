@@ -7,4 +7,4 @@ parameters:
   - name: name
     type: string
     displayName: Name for the greeting
-    default: 'World'
+    default: World
