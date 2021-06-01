@@ -23,7 +23,7 @@ spec:
     stages {
         stage('Hello') {
             steps {
-                echo "Hello ${name}"
+                echo "Hello ${subjValue}"
             }
         }
     }
